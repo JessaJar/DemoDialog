@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonDemo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demo 1 - Simple Dialog" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDemo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Demo 2 Buttons Dialog" />
+
+        <TextView
+            android:id="@+id/textViewDemo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDemo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Demo 3 Text Input Dialog" />
+
+        <TextView
+            android:id="@+id/textViewDemo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonEx3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercise3" />
+
+        <TextView
+            android:id="@+id/textViewEx3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonEx4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="demo 4 datepcker dialog" />
+
+        <TextView
+            android:id="@+id/textViewEx4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonEx5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="demo 4 timepicker dialog" />
+
+        <TextView
+            android:id="@+id/textViewEx5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+</LinearLayout>
